@@ -18,7 +18,7 @@ div#messageArea {
 }
 
 table {
-    color: white;
+    /* color: white; */
     position: absolute;
     left: 173px;
     top: 98px;
@@ -29,7 +29,7 @@ table {
 td {
     width: 92.7px;
     height: 93px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     
 }
 
@@ -45,4 +45,14 @@ form input {
     background-color: rgb(152, 207, 113);
     border-color: rgb(83, 175, 19);
     font-size: 1em;
+}
+#fireButton {
+    cursor: pointer;
+}
+
+.hit {
+    background: url("./images/ship.png") no-repeat center center;
+}
+.miss {
+    background: url("./images/miss.png") no-repeat center center;
 }
